@@ -46,6 +46,8 @@ target 'AdTestApp' do
   target 'AdTestAppTests' do
     inherit! :complete
     # Pods for testing
+    pod 'Google-Mobile-Ads-SDK'
+
   end
 
   post_install do |installer|
